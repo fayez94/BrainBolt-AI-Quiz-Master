@@ -1,7 +1,7 @@
-# **BrainBolt: AI Quiz Master**
+## 🌟 BrainBolt - AI Quiz Master
 BrainBolt is an AI-powered Multiple Choice Question (MCQ) generator built using LangChain and OpenAI's GPT model. This tool processes text input (from PDF or TXT files), generates MCQs, evaluates their complexity, and formats them for easy readability. The project is developed with Streamlit for an interactive UI.  
 
-## **Features**  
+## 🚀 Features
 
 1. **MCQ Generation:** Creates structured multiple-choice questions from input text.  
 
@@ -13,7 +13,8 @@ BrainBolt is an AI-powered Multiple Choice Question (MCQ) generator built using 
 
 5. **Streamlit UI:** User-friendly interface for easy interaction.  
 
-## **Folder Structure**  
+## 📂 Folder Structure
+
 BrainBolt/
 │── Input for inference/      # Folder for input text/PDF files
 │── experiment/               # Contains Jupyter notebooks for testing
@@ -33,5 +34,4 @@ BrainBolt/
 │── Response.json             # Sample output data
 │── setup.py                  # Package setup script
 │── test.py                   # Testing script
-
 
