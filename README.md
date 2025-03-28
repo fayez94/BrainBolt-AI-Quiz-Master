@@ -32,6 +32,13 @@ BrainBolt/
 │── README.md                 # Project documentation
 │── requirements.txt          # Dependencies list
 │── Response.json             # Sample output data
-│── setup.py                  # Package setup script
 │── test.py                   # Testing script
+```
+
+## 🛠 Installation  
+Clone the repository and install dependencies:
+```  
+git clone https://github.com/your-repo/BrainBolt.git
+cd BrainBolt
+pip install -r requirements.txt
 ```
