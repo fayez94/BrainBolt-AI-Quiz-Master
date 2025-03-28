@@ -14,7 +14,7 @@ BrainBolt is an AI-powered Multiple Choice Question (MCQ) generator built using 
 5. **Streamlit UI:** User-friendly interface for easy interaction.  
 
 ## 📂 Folder Structure
-
+```
 BrainBolt/
 │── Input for inference/      # Folder for input text/PDF files
 │── experiment/               # Contains Jupyter notebooks for testing
@@ -34,4 +34,4 @@ BrainBolt/
 │── Response.json             # Sample output data
 │── setup.py                  # Package setup script
 │── test.py                   # Testing script
-
+```
