@@ -38,7 +38,42 @@ BrainBolt/
 ## 🛠 Installation  
 Clone the repository and install dependencies:
 ```  
-git clone https://github.com/your-repo/BrainBolt.git
-cd BrainBolt
+git clone https://github.com/fayez94/BrainBolt-AI-Quiz-Master.git
+cd BrainBolt-AI-Quiz-Master
 pip install -r requirements.txt
 ```
+
+## 📌 Usage  
+Run Streamlit UI:
+```  
+streamlit run StreamlitAPP.py
+```
+
+Use MCQ Generator Directly:  
+```
+from src.mcqgenerator.MCQGenerator import generate_and_evaluate_quiz
+
+input_data = {
+    "text": "Sample text for quiz generation.",
+    "number": 5,
+    "subject": "Science",
+    "tone": "formal",
+    "response_json": "{}"
+}
+output = generate_and_evaluate_quiz(input_data)
+print(output)
+```
+
+## 🔑 Key Components  
+📝 MCQGenerator.py  
+* Generates and evaluates MCQs using LangChain & OpenAI GPT.  
+* Uses SequentialChain for structured MCQ generation & evaluation.  
+* Implements logging for error handling.  
+
+📂 utils.py  
+* read_file(file): Extracts text from PDF/TXT files.  
+* get_table_data(quiz_str): Converts MCQ JSON output into a table format.  
+
+📜 logger.py  
+* Creates timestamped logs in the logs/ folder.  
+* Helps debug and track execution details.  
