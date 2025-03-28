@@ -35,21 +35,45 @@ BrainBolt/
 │── test.py                   # Testing script
 ```
 
-## 🛠 Installation  
-Clone the repository and install dependencies:
-```  
+## 🚀 Project Usage Guide
+
+Follow these steps to set up and run the project on your local machine.
+
+### Clone the Repository
+```bash
 git clone https://github.com/fayez94/BrainBolt-AI-Quiz-Master.git
 cd BrainBolt-AI-Quiz-Master
+```
+
+### Create and Activate a Virtual Environment
+
+#### 🔹 For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### 🔹 For macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Install Required Dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-## 📌 Usage  
-Run Streamlit UI:
+### Run the MCQgenerator.py script
+
+```bash
+python MCQgenerator.py
+```
+### Run Streamlit UI:
 ```  
 streamlit run StreamlitAPP.py
 ```
-
-Use MCQ Generator Directly:  
+### Use MCQ Generator Directly:  
 ```
 from src.mcqgenerator.MCQGenerator import generate_and_evaluate_quiz
 
@@ -62,6 +86,10 @@ input_data = {
 }
 output = generate_and_evaluate_quiz(input_data)
 print(output)
+```
+### Deactivating the Virtual Environment
+```bash
+deactivate
 ```
 
 ## 🔑 Key Components  
@@ -77,3 +105,10 @@ print(output)
 📜 logger.py  
 * Creates timestamped logs in the logs/ folder.  
 * Helps debug and track execution details.  
+
+
+## 📬 Contact
+For any questions or suggestions, feel free to reach out!
+
+📧 Email: mdfayezullah2624@gmail.com  
+🐙 GitHub: [fayez94](https://github.com/fayez94)
