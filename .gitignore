@@ -1,0 +1,5 @@
+venv
+.env
+HfMCQ.ipynb
+logs
+/.vscode 

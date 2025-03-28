@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the connection between machine learning and data compression?,a: Machine learning can be used for optimal data compression | b: Data compression can be used for prediction in machine learning | c: There is no connection between machine learning and data compression | d: Machine learning and data compression are completely separate fields,a
+How can k-means clustering be utilized in data compression?,a: By reducing the size of data files | b: By grouping similar data points into clusters | c: By speeding up data transmission | d: By enhancing storage efficiency,b
+What is the purpose of data compression?,a: To increase the size of data files | b: To slow down data transmission | c: To decrease the size of data files | d: To reduce storage efficiency,c
+Which software is an example of AI-powered image compression?,a: NVIDIA Maxine | b: OpenCV | c: MATLAB's Image Processing Toolbox | d: AIVC,b
+What did DeepMind's Chinchilla 70B model achieve in terms of data compression?,a: Compressed image and audio data to 100% of their original sizes | b: Outperformed conventional methods like PNG and FLAC | c: Was only efficient on data it has not been trained on | d: Did not achieve any significant compression,b
