@@ -33,7 +33,22 @@ BrainBolt/
 │── requirements.txt          # Dependencies list
 │── Response.json             # Sample output data
 │── test.py                   # Testing script
+│── images                    # interface images
+
 ```
+
+## Streamlit Interface  
+
+### 📥 Input Interface  
+Users can upload a file, enter text, and configure generation parameters.  
+
+![Input Interface](images/streamlit_1.png)  
+
+### 📤 Output Interface  
+The generated MCQs are displayed in a structured format for easy review.  
+
+![Output Interface](images/streamlit_2.png)  
+
 
 ## 🚀 Project Usage Guide
 
